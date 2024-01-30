@@ -1,25 +1,23 @@
 # Cpp-Programming-1
-This repository encompasses diverse programs addressing specific programming challenges. Each program is outlined below:
+This repository encompasses diverse programs addressing specific programming challenges. The project includes internal documentation to aid in understanding and utilizing the functionalities of each program. Each program is outlined below:
 
-## 1. base10_to_other_bases
-This program features a function, base10_to_other_bases, designed to convert a decimal number to various numeric bases. The function extracts a specific digit range from the input number and converts it to the desired base using the method of successive divisions.
+1. **Base Converter**
+    - Converts a number expressed in decimal base to other numeric bases specified by the user.
 
-## 2. Student Class Program
-This program involves the implementation of a class, Student, as a user-defined data type. The steps include defining the interface in Estudiante.h, implementing it in Estudiante.cpp, and using the class functionalities in the main function.
+2. **Student Class Implementation**
+    - Implements objects that take input data for student members of a class, assigns and stores them in a native vector, and then displays the information.
 
-## 3. numbers
-The program includes a function, extract_numbers, that extracts numbers from a string and stores them in a forward list. Another function, print_extracted_numbers, prints the extracted numbers.
+3. **Number Extraction from String**
+    - Extracts numbers present in a string entered by the user and prints them if any are found.
 
-## 4. pascal_triangle
-This program generates Pascal's Triangle up to a specified number of levels using a function, pascal_triangle. Another function, print_pascal_triangle, prints the triangle based on the provided example.
+4. **Pascal's Triangle Generator**
+    - Takes the required number of levels for Pascal's Triangle as input and returns a vector representing the triangle. Each element of the returned vector corresponds to a level of Pascal's Triangle.
 
-## 5. semiprimes
-The program includes a function, semiprimes, that identifies semiprimes within a specified interval. Another function, print_semiprimes, prints the semiprimes and their prime components.
+5. **Semiprime Numbers Finder**
+    - Given a range of numbers, returns the semiprime numbers within that range.
 
-## 6. extract_diagonal
-This program features a function, extract_diagonal, that extracts values from a specified diagonal in a square matrix. Another function, print_diagonal_values, prints the extracted values.
+6. **Diagonal Values Extractor**
+    - A function that takes a square matrix as input and returns a vector containing the values of the diagonal.
 
-## 7. large_numbers_sum
-The program includes a function, sum_large_numbers, that adds two natural numbers represented as lists. Two auxiliary functions, convert_to_list and print_list, assist in number conversion and result printing.
-
-### Refer to each program's individual sections for specific usage examples. Explore the code for detailed information and further insights.
+7. **Dynamic Lists for Long Number Addition**
+    - Utilizes dynamic lists to perform addition of long numbers, where each element of the list stores a value of the resulting number.
